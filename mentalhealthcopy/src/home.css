@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+body {
+    font-family: "Noto Serif", serif;
+    height: 100vh;
+    width: 100%;
+}
+
+.parent {
+    height: 100vh;
+    background-color: #fe8276;
+}
+
+nav {
+    display: flex;
+    background-color: #fe8276;
+
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 8vh;
+    width: 100%;
+}
+
+
+.navleft,
+.navright {
+    flex: 1;
+}
+
+.navleft {
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.child {
+    display: flex;
+    height: 70vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #fcf3ee;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.left,
+.right {
+    flex: 1;
+}
+
+.left {
+    padding: 10px;
+    margin-left: 6%;
+}
+
+
+.left h3 {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.left h4 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.red {
+    font-family: "Protest Revolution", sans-serif;
+    color: #fe8276;
+}
+
+select {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    padding: 0.5em;
+    background: transparent;
+}
+
+.question {
+    padding: 1em;
+}
+
+.form-question {
+    padding: 10px;
+}
+
+button {
+    background-color: #fe8276;
+    padding: 1em;
+    width: 8rem;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
